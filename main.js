@@ -17,9 +17,7 @@ function buildPage(){
 
         const sectionContainer = document.querySelector("section")
 
-        sectionContainer.innerHTML = `
-            <p>${data.endereco.rua}</p>
-        `
+       
     }
         
     function buildProdutos(){
