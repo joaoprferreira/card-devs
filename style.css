@@ -4,7 +4,7 @@
 }
 .header h1{
     color: white;
-    font-size: 17px;
+    font-size: 20px;
     margin: 50px;
 
 }
@@ -30,6 +30,7 @@
     width: 200px;
 }
 .card {
+    margin: 10px;
     width: 20vw;
     border: 1px solid rgba(0, 0, 0, .2);
 }
