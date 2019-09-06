@@ -58,3 +58,13 @@
     border-radius: 10px;
     transition: 0.5s;
 }
+.cards_clientes {
+    display: flex;
+}
+.categoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 10vh;
+}
