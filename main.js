@@ -1,5 +1,7 @@
 function buildPage(){
     buildHeader();  
+    buildSection();
+    buildProdutos();
 }
 
     function buildHeader(){
@@ -9,11 +11,17 @@ function buildPage(){
         headerContainer.innerHTML = `
         <h1>${data.nome+" - "+data.cnpj}</h1>
         `
-        const sectioncontainer = document.querySelector("section")
+    }
+    function buildSection(){
 
-        sectioncontainer.innerHTML = `
+        const sectionContainer = document.querySelector("section")
+
+        sectionContainer.innerHTML = `
             <p>${data.endereco.rua}</p>
         `
+    }
+        
+    function buildProdutos(){
         const cardsProdutos = document.querySelector(".cards")
 
         cardsProdutos.innerHTML = `
@@ -33,5 +41,6 @@ function buildPage(){
         </div>
         `
     }
-
+        
+    
     buildPage();
