@@ -48,8 +48,8 @@ function buildPage(){
             <div class="box">
             <div class="card">
             <h1>${clientes[i].nome}</h1>
-            <h2>${clientes[i].cpf}</h2>
-            <h4>R$${clientes[i].telefone}<h4>
+            <h2>CPF: ${clientes[i].cpf}</h2>
+            <h4>Telefone: ${clientes[i].telefone}<h4>
             </div>
             </div>`;
           }
