@@ -79,6 +79,7 @@ const data = {
     ],
     "clientes": [
       {
+        "imagem_url": "http://s.glbimg.com/jo/g1/f/original/2012/04/13/tereza-fotoruim_300_400.jpg",
         "nome": "Joao Silva",
         "telefone": "91113-8343",
         "cpf": "333.333.333-44",
@@ -104,6 +105,21 @@ const data = {
           "cep": "26.134-389",
           "complemento": "casa 7",
           "bairro": "Guaratiba",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ"
+        },
+      },
+      {
+        "nome": "Clara Sarah Corte Real",
+        "telefone": "(62) 2554-8752",
+        "cpf": "271.544.491-52",
+        "data_nascimento": "19/12/1992",
+        "endereco": {
+          "rua": "Rua Germano Brugger",
+          "numero": 8,
+          "cep": "74935-710",
+          "complemento": "casa 39",
+          "bairro": "pedra de guaratiba",
           "cidade": "Rio de Janeiro",
           "estado": "RJ"
         }
