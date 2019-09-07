@@ -48,6 +48,33 @@ const data = {
         "precisa_receita": false,
         "categoria": "dermo",
         "imagem_url": "https://www.dove.com/content/dam/unilever/dove/brazil/pack_design/3d/hair_care/wash_and_care/condicionador_dove_ritual_de_repara%C3%A7%C3%A3o_200_ml/ritual_de_reparacao_200ml_cd_8_fop_simples-864355-png.png.ulenscale.460x460.png"
+      },
+      {
+        "id": 5,
+        "codigo_barra": "0120500755",
+        "nome": "cotonete",
+        "preco": 4,
+        "precisa_receita": false,
+        "categoria": "dermo",
+        "imagem_url": "https://ikesaki.vteximg.com.br/arquivos/ids/158470-1000-1000/HASTES-FLEXIVEIS-COTONETES-28073.00.jpg?v=635304129436230000"
+      },
+      {
+        "id": 6,
+        "codigo_barra": "0120504855",
+        "nome": "Pasta de dente colgate",
+        "preco": ("2,50"),
+        "precisa_receita": false,
+        "categoria": "dermo",
+        "imagem_url":"https://http2.mlstatic.com/pasta-de-dente-colgate-maxima-proteco-D_NQ_NP_807703-MLB26465995102_112017-F.jpg"
+      },
+      {
+        "id": 7,
+        "codigo_barra": "0450504855",
+        "nome": "Hidratante naitva spar",
+        "preco": ("2,50"),
+        "precisa_receita": false,
+        "categoria": "dermo",
+        "imagem_url": "https://boticario.vteximg.com.br/arquivos/ids/195466-500-500/NATIVA_SPA_LOCAO_HIDRATANTE_DESODORANTE_CORPORAL_KARITE_400ml_74327_frontal.jpg?v=636731312217870000"
       }
     ],
     "clientes": [
