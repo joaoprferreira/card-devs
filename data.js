@@ -30,6 +30,24 @@ const data = {
         "precisa_receita": false,
         "categoria": "dermo",
         "imagem_url": "https://www.drogariacatarinense.com.br/BACKOFFICE/Uploads/Produto/Ampliada/56558.jpg"
+      },
+      {
+        "id": 3,
+        "codigo_barra": "0120128755",
+        "nome": "Sabonete",
+        "preco": 6,
+        "precisa_receita": false,
+        "categoria": "dermo",
+        "imagem_url":"https://www.drogariaminasbrasil.com.br/media/product/de1/sabonete-francis-aromachologie-geranio-90g-b03.jpg"
+      },
+      {
+        "id": 4,
+        "codigo_barra": "0120250755",
+        "nome": "condicionador dove",
+        "preco": 8.20,
+        "precisa_receita": false,
+        "categoria": "dermo",
+        "imagem_url": "https://www.dove.com/content/dam/unilever/dove/brazil/pack_design/3d/hair_care/wash_and_care/condicionador_dove_ritual_de_repara%C3%A7%C3%A3o_200_ml/ritual_de_reparacao_200ml_cd_8_fop_simples-864355-png.png.ulenscale.460x460.png"
       }
     ],
     "clientes": [
