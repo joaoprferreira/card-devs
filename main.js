@@ -54,8 +54,22 @@ function buildPage(){
             </div>`
           }
         cardsClientes.innerHTML = text;
+    }
+    buildPage();
+
+    function cadastrarCliente(){
+
+        const nomeNovo = document.querySelector("#nome").value;       
+        const cpfNovo = document.querySelector("#cpf").value;
+        const telefoneNovo = document.querySelector("#telefone").value;
+        const arrayClientes = data.clientes;
+
+        var novosClientes = ["nome",nomeNovo,+ cpfNovo, + telefoneNovo,];
         
+        arrayClientes.push(novosClientes)
+
+        console.log(arrayClientes)
+
     }
         
-    
-    buildPage();
+    buildClientes()
