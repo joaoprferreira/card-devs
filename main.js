@@ -64,12 +64,18 @@ function buildPage(){
         const telefoneNovo = document.querySelector("#telefone").value;
         const arrayClientes = data.clientes;
 
-        var novosClientes = ["nome",nomeNovo,+ cpfNovo, + telefoneNovo,];
+        var novosClientes =       {
+            "nome": nomeNovo,
+            "telefone": telefoneNovo,
+            "cpf": cpfNovo,
+            };
         
-        arrayClientes.push(novosClientes)
+        arrayClientes.push(novosClientes);
+        
+        buildClientes();
 
-        console.log(arrayClientes)
+
+        console.log(arrayClientes);
 
     }
         
-    buildClientes()
