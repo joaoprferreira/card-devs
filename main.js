@@ -69,12 +69,15 @@ function buildPage(){
             "telefone": telefoneNovo,
             "cpf": cpfNovo,
             };
-        
         arrayClientes.push(novosClientes);
         
         buildClientes();
 
+        document.querySelector('#nome').value="";
+        document.querySelector('#cpf').value="";
+        document.querySelector('#telefone').value="";
 
+        
         console.log(arrayClientes);
 
     }

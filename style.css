@@ -77,6 +77,29 @@
     /* width: 40vw; */
     height: 10vh;
 }
+.novosclientes {
+    display: flex;
+    flex-direction: column;
+}
+.lb-In{
+    margin: 5px;
+    width: 5vw;
+}
+#newclients {
+    font-size: 20px;
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+}
+#btn_client {
+    color: white;
+    background-color: rgba(33, 23, 75, 0.418);
+    margin: 5px;
+    padding: 5px;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 20px;
+}
 
 
 @media (max-width: 600px) {

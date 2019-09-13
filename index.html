@@ -17,18 +17,34 @@
     <hr>
     <div class="categoria"><h1>Clientes</h1></div>
     <div class="cards_clientes"></div>
-    <section >
-        <h1>Torne-se um novo cliente!! :</h1>
-        <label for="nome"></label>
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome!">
 
-        <label for="cpf"></label>
-        <input type="number" name="cpf" id="cpf" placeholder="Digite seu CPF!">
+    <section id="newclients">
 
-        <label for="telefone"></label>
-        <input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone!">
+        <div class="novosclientes">
 
-        <button type="submit" onclick="cadastrarCliente()">Enviar :)</button>
+            <h1>Torne-se um novo cliente!! :</h1>
+            
+            <div class="lb-In">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome!">
+            </div>
+
+            <div class="lb-In">
+            <label for="cpf">CPF:</label>
+            <input type="number" name="cpf" id="cpf" placeholder="Digite seu CPF!">
+            </div>
+
+            <div class="lb-In">
+            <label for="telefone">Telefone:</label>
+            <input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone!">
+            </div>
+            
+            <button type="submit" id="btn_client" onclick="cadastrarCliente();">Enviar :)</button>
+
+        </div>
+
+        
+
     </section>
 
     <script src="./data.js"></script>
